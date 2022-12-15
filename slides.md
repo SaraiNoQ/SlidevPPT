@@ -201,7 +201,7 @@ const final = {
 }
 </script>
 
-<div class="bg-slate-200 w-[70%] p-4">
+<div class="bg-slate-200 w-3/4 p-4" v-click="1">
 <span class="font-mono text-base">项目测试流程分为<span class="bg-amber-300 mx-1 font-bold">项目开发阶段测试</span>和<span class="bg-amber-300 mx-1 font-bold">项目完工验收测试</span>两个阶段</span>
 
 <span class="font-mono text-base">开发阶段测试包括：</span><br>
@@ -211,8 +211,43 @@ const final = {
 
 <span class="font-mono text-base">完工验收阶段的测试包括：</span><br>
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="font-mono text-sm">1. 安装测试 `根据项目提供的安装文档，搭建系统运行环境，检查系统安装是否成功`</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;<span class="font-mono text-sm">2. 安装测试 `根据项目提供的安装文档，搭建系统运行环境，检查系统安装是否成功`</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="font-mono text-sm">2. 需求验证 `检查产品是否满足该项目需求说明书中规定的需求以及需求的完整性、一致性。`</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="font-mono text-sm">3. 功能验证 `检查各项功能的可运行性和正确性。` <span class="bg-red-200 mx-1 font-bold">这是本次实验我们的测试方向。</span></span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="font-mono text-sm">4. 性能测试 `模拟多种正常、峰值以及异常负载条件来对系统的各项性能指标进行测试`</span><br>
+</div>
 
+---
+preload: false
+---
+
+# Procedure
+
+<span class="tracking-normal font-serif text-xl font-bold">项目测试的基本流程</span>
+
+<div class="absolute top-0 right-0 w-60 mt-6">
+  <div class="relative w-40 h-40">
+    <img
+      class="absolute top-0 left-0 right-0 bottom-0"
+      src="https://sli.dev/logo-square.png"
+    />
+    <img
+      class="absolute top-0 left-0 right-0 bottom-0"
+      src="https://sli.dev/logo-circle.png"
+    />
+    <img
+      class="absolute top-0 left-0 right-0 bottom-0"
+      src="https://sli.dev/logo-triangle.png"
+    />
+  </div>
+</div>
+
+<div class="bg-slate-200 w-3/4 p-4">
+<span class="font-mono text-sm">1. 项目测试启动：项目立项后，在测试配置库中创建项目。</span><br>
+<span class="font-mono text-sm">2. 测试计划：系统详细设计后，制定测试计划，准备测试资源。</span><br>
+<span class="font-mono text-sm">3. 设计测试用例，主要是与业务相关的测试用例。</span><br>
+<span class="font-mono text-sm">4. 实施功能模块测试，搭建运行或开发环境，采用功能模块测试表的方式，开发人员在功能模块测试表中更新进度状态，测试人员在该表中描述测试进度。形成测试错误列表，该表对每个错误都有相应的测试记录与之链接，在测试记录中，详细描述错误的情况。在测试记录中还要包括修正信息和验证信息。</span><br>
+<span class="font-mono text-sm">5. 错误关闭后，测试人员维护测试记录表和更新测试用例库和问题库，作为经验积累。</span><br>
+<span class="font-mono text-sm">6. 项目在结项时，测试人员进行项目完工验收测试，填写项目测试报告。该测试报告可作为用户验收的输入工件。</span><br>
 </div>
 
 ---
