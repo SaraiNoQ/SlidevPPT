@@ -201,7 +201,7 @@ const final = {
 }
 </script>
 
-<div class="bg-slate-200 w-3/4 p-4" v-click="1">
+<div class="bg-slate-200 w-3/4 p-4 rounded-md" v-click="1">
 <span class="font-mono text-base">项目测试流程分为<span class="bg-amber-300 mx-1 font-bold">项目开发阶段测试</span>和<span class="bg-amber-300 mx-1 font-bold">项目完工验收测试</span>两个阶段</span>
 
 <span class="font-mono text-base">开发阶段测试包括：</span><br>
@@ -241,7 +241,7 @@ preload: false
   </div>
 </div>
 
-<div class="bg-slate-200 w-3/4 p-4">
+<div class="bg-slate-200 w-3/4 p-4 rounded-md">
 <span class="font-mono text-sm inline-block py-2" v-click="1">1. 项目测试启动：项目立项后，在测试配置库中创建项目。<carbon:arrow-right class="inline-block pl-1"/><strong>立项</strong></span><br>
 <span class="font-mono text-sm inline-block py-2" v-click="2">2. 测试计划：系统详细设计后，制定测试计划，准备测试资源。<carbon:arrow-right class="inline-block pl-1"/><strong>指定测试方案</strong></span><br>
 <span class="font-mono text-sm inline-block py-2" v-click="3">3. 设计测试用例，主要是与业务相关的测试用例。<carbon:arrow-right class="inline-block pl-1"/><strong>设计测试用例</strong></span><br>
@@ -379,10 +379,10 @@ clicks: 1
 
 # Defective Code
 
-<span class="tracking-normal font-serif text-lg font-bold">登录失败问题的解决</span>
+<span class="tracking-normal font-serif text-md font-bold">登录失败问题的解决</span>
 
 <div grid="~ cols-2 gap-4">
-  <div class="bg-slate-100 rounded p-2">
+  <div class="bg-slate-100 rounded-md p-2">
     <span class="font-mono text-base">问题判断：</span> 
     <br>
     <span class="font-mono text-base">1. 抓包查看网络请求，发现前端并没有问题</span>
