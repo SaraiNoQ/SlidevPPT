@@ -260,7 +260,7 @@ preload: false
 🧰 <span class="font-serif text-base font-bold">训练软件测试的方法与技能</span> <br>
 💊 <span class="font-serif text-base font-bold">寻找项目存在的漏洞和缺陷</span>
 
-<div class="flex mt-4">
+<div class="flex mt-4" v-click="1">
   <img border="rounded" src="/sys.png" class="h-72 w-120 border-1">
   <div class="ml-12 mt-4">
     <ul class="font-mono"><span class="text-xl">功能测试</span>
