@@ -242,12 +242,12 @@ preload: false
 </div>
 
 <div class="bg-slate-200 w-3/4 p-4">
-<span class="font-mono text-sm">1. 项目测试启动：项目立项后，在测试配置库中创建项目。</span><br>
-<span class="font-mono text-sm">2. 测试计划：系统详细设计后，制定测试计划，准备测试资源。</span><br>
-<span class="font-mono text-sm">3. 设计测试用例，主要是与业务相关的测试用例。</span><br>
-<span class="font-mono text-sm">4. 实施功能模块测试，搭建运行或开发环境，采用功能模块测试表的方式，开发人员在功能模块测试表中更新进度状态，测试人员在该表中描述测试进度。形成测试错误列表，该表对每个错误都有相应的测试记录与之链接，在测试记录中，详细描述错误的情况。在测试记录中还要包括修正信息和验证信息。</span><br>
-<span class="font-mono text-sm">5. 错误关闭后，测试人员维护测试记录表和更新测试用例库和问题库，作为经验积累。</span><br>
-<span class="font-mono text-sm">6. 项目在结项时，测试人员进行项目完工验收测试，填写项目测试报告。该测试报告可作为用户验收的输入工件。</span><br>
+<span class="font-mono text-sm inline-block py-2" v-click="1">1. 项目测试启动：项目立项后，在测试配置库中创建项目。<carbon:arrow-right class="inline-block pl-1"/><strong>立项</strong></span><br>
+<span class="font-mono text-sm inline-block py-2" v-click="2">2. 测试计划：系统详细设计后，制定测试计划，准备测试资源。<carbon:arrow-right class="inline-block pl-1"/><strong>指定测试方案</strong></span><br>
+<span class="font-mono text-sm inline-block py-2" v-click="3">3. 设计测试用例，主要是与业务相关的测试用例。<carbon:arrow-right class="inline-block pl-1"/><strong>设计测试用例</strong></span><br>
+<span class="font-mono text-sm inline-block py-2" v-click="4">4. 实施功能模块测试，搭建运行或开发环境，采用功能模块测试表的方式，开发人员在功能模块测试表中更新进度状态，测试人员在该表中描述测试进度。形成测试错误列表，该表对每个错误都有相应的测试记录与之链接，在测试记录中，详细描述错误的情况。在测试记录中还要包括修正信息和验证信息。<carbon:arrow-right class="inline-block pl-1"/><strong>进行测试，反映缺陷</strong></span><br>
+<span class="font-mono text-sm inline-block py-2" v-click="5">5. 错误关闭后，测试人员维护测试记录表和更新测试用例库和问题库，作为经验积累。<carbon:arrow-right class="inline-block pl-1"/><strong>完善文档</strong></span><br>
+<span class="font-mono text-sm inline-block py-2" v-click="6">6. 项目在结项时，测试人员进行项目完工验收测试，填写项目测试报告。该测试报告可作为用户验收的输入工件。<carbon:arrow-right class="inline-block pl-1"/><strong>测试总结</strong></span><br>
 </div>
 
 ---
