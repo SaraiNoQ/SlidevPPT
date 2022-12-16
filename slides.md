@@ -263,15 +263,6 @@ preload: false
 <div class="flex mt-4" v-click="1">
   <img border="rounded" src="/sys.png" class="h-72 w-120 border-1">
   <div class="ml-12 mt-4">
-    <ul class="font-mono"><span class="text-xl">功能测试</span>
-      <li> 档案管理 <carbon:arrow-right class="inline-block pl-1"/> 张世豪  </li>
-      <li> 培训管理 <carbon:arrow-right class="inline-block pl-1"/> 龙添辉 </li>
-      <li> 奖惩管理 <carbon:arrow-right class="inline-block pl-1"/> 唐胜宇 </li>
-      <li> 薪资管理 <carbon:arrow-right class="inline-block pl-1"/> 李正大 </li>
-      <li> 考勤管理 <carbon:arrow-right class="inline-block pl-1"/> 唐亲贤 </li>
-      <li> 请假管理 <carbon:arrow-right class="inline-block pl-1"/> 亓祺 </li>
-      <li> 操作员管理 <carbon:arrow-right class="inline-block pl-1"/> 亓祺 </li>
-    </ul>
   </div>
 </div>
 
