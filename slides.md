@@ -324,6 +324,42 @@ clicks: 5
 
 ---
 
+# Personal Work
+
+<span class="tracking-normal font-serif text-xl font-bold">负责请假管理与登录功能的测试</span>
+
+共编写18个测试用例，测试过程中发现有三个功能出现问题。问题及原因如下：
+- 登录 Token 鉴权问题
+- 时间格式 - 时区设置
+- 筛选搜索错误
+
+<style>
+* {
+font-family: "Georgia",
+    "Nimbus Roman No9 L",
+    "Songti SC",
+    "Noto Serif CJK SC",
+    "Source Han Serif SC",
+    "Source Han Serif CN",
+    "STSong",
+    "AR PL New Sung",
+    "AR PL SungtiL GB",
+    "NSimSun",
+    "SimSun",
+    "TW-Sung",
+    "WenQuanYi Bitmap Song",
+    "AR PL UMing CN",
+    "AR PL UMing HK",
+    "AR PL UMing TW",
+    "AR PL UMing TW MBE",
+    "PMingLiU",
+    "MingLiU",
+    "serif";
+}
+</style>
+
+---
+
 # Functional Test
 
 <img src="/test.png">
