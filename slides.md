@@ -140,7 +140,7 @@ li {
     "AR PL UMing HK",
     "AR PL UMing TW",
     "AR PL UMing TW MBE",
-    "PMingLiU",image
+    "PMingLiU",
     "MingLiU",
     "serif";
 }
@@ -307,11 +307,11 @@ clicks: 5
 
   <div class="ml-8">
   <span v-click="3" class="tracking-normal font-mono text-lg">3. 编写本次测试的测试用例</span><br>
-  &nbsp;&nbsp;&nbsp;&nbsp;<span v-click="3" class="tracking-normal font-mono text-sm">(1) 确定功能测试的测试用例</span><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;<span v-click="3" class="tracking-normal font-mono text-sm">(1) 确定功能测试的测试用例 - 请假管理</span><br>
   &nbsp;&nbsp;&nbsp;&nbsp;<span v-click="3" class="tracking-normal font-mono text-sm font-bold">成果物：《软件测试用例设计说明书》</span><br>
 
   <span v-click="4" class="tracking-normal font-mono text-lg">4. 对系统进行测试</span><br>
-  &nbsp;&nbsp;&nbsp;&nbsp;<span v-click="4" class="tracking-normal font-mono text-sm">(1) 基于测试用例进行功能测试</span><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;<span v-click="4" class="tracking-normal font-mono text-sm">(1) 基于测试用例进行<strong>考勤管理</strong>功能测试</span><br>
   &nbsp;&nbsp;&nbsp;&nbsp;<span v-click="4" class="tracking-normal font-mono text-sm">(2) 获取测试结果，掌握系统存在的缺陷</span><br>
   &nbsp;&nbsp;&nbsp;&nbsp;<span v-click="4" class="tracking-normal font-mono text-sm font-bold">成果物：《测试结果与缺陷报告书》</span><br>
 
@@ -321,6 +321,12 @@ clicks: 5
   &nbsp;&nbsp;&nbsp;&nbsp;<span v-click="5" class="tracking-normal font-mono text-sm font-bold">成果物：《测试总结报告》</span><br>
   </div>
 </div>
+
+---
+
+# Functional Test
+
+<img src="/test.png">
 
 ---
 clicks: 5
@@ -421,6 +427,43 @@ protected boolean onAccessDenied(ServletRequest request, ServletResponse respons
 </div>
 
 <arrow v-click="1" x1="800" y1="500" x2="650" y2="380" color="#564" width="3" arrowSize="1" />
+
+---
+
+# Lessons Learned
+
+<span class="tracking-normal font-serif text-md font-bold">心得特会 - 软件测试的重要性</span>
+
+1. 通过软件测试确保软件的质量。
+2. 与软件开发的不同。给开发人员提供信息，以方便其为风险评估做相应的准备。
+3. 软件测试**贯穿在整个软件开发的过程中**，保证整个软件开发的过程高质量。
+4. 通过软件测试验证软件**是否满足**任务书和系统定义文档所规定的技术要求。
+5. 软件测试为软件质量模型的建立提供依据。
+
+<style>
+* {
+  font-family: "Georgia",
+    "Nimbus Roman No9 L",
+    "Songti SC",
+    "Noto Serif CJK SC",
+    "Source Han Serif SC",
+    "Source Han Serif CN",
+    "STSong",
+    "AR PL New Sung",
+    "AR PL SungtiL GB",
+    "NSimSun",
+    "SimSun",
+    "TW-Sung",
+    "WenQuanYi Bitmap Song",
+    "AR PL UMing CN",
+    "AR PL UMing HK",
+    "AR PL UMing TW",
+    "AR PL UMing TW MBE",
+    "PMingLiU",
+    "MingLiU",
+    "serif";
+}
+</style>
 
 ---
 layout: center
